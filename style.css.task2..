@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#searchInput {
+    padding: 8px;
+    font-size: 16px;
+    width: 250px;
+}
+
+#searchButton {
+    padding: 8px 12px;
+    font-size: 16px;
+}
+
+#sortOptions {
+    padding: 8px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    float: left;
+    box-shadow: 2px 2px 12px #eee;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
